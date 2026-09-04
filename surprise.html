@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A letter asking for forgiveness, from my heart.">
+  <title>My Letter — For You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__orb ambient__orb--1"></div>
+    <div class="ambient__orb ambient__orb--2"></div>
+    <div class="ambient__orb ambient__orb--3"></div>
+  </div>
+
+  <nav class="navbar">
+    <a href="index.html" class="navbar__brand">for <em>you</em> ♥</a>
+    <button class="navbar__toggle" aria-label="Menu">☰</button>
+    <ul class="navbar__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Why You</a></li>
+      <li><a href="surprise.html" class="active">My Letter</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="sorry-section">
+      <span class="page-label">a letter for you</span>
+      <h1 class="page-title">Please<br><em>Forgive Me</em></h1>
+      <p class="page-subtitle">
+        I wrote this because some things are too important to say in a text.
+        This is everything I feel — no filters, no excuses.
+      </p>
+    </section>
+
+    <section class="glass fade-in">
+      <div class="sorry-section">
+        <p class="page-subtitle" style="margin-bottom: 2rem;">
+          When you're ready, open my letter.
+        </p>
+        <button id="reveal-btn" class="btn btn--filled">Open My Letter</button>
+      </div>
+
+      <div id="letter" class="letter">
+        <p class="letter__greeting">My dearest love,</p>
+
+        <p>
+          I don't know where to begin, except to say the two words that matter most:
+          <strong style="color: var(--rose);">I'm sorry.</strong>
+        </p>
+        <p>
+          I'm sorry for the pain I caused you. I'm sorry for the moments I made you
+          feel unloved, when loving you is the only thing that has ever made sense
+          to me. You deserved better, and I hate that I wasn't better for you.
+        </p>
+        <p>
+          Ever since we started talking on <strong style="color: var(--rose);">20 April</strong>,
+          you've become my favourite notification, my favourite person, my favourite
+          everything. Losing you — or even the thought of you being hurt because of me —
+          is the scariest thing I've ever faced.
+        </p>
+        <p class="highlight">
+          I love you. I love you. I love you.
+        </p>
+        <p>
+          Not as a habit. Not as a comfort. I love you in the way the moon loves
+          the tide — constantly, quietly, and without ever stopping. I love your
+          strength, your softness, your fire, your silence. I love all of you,
+          even the parts you think are hard to love.
+        </p>
+        <p>
+          I won't ask you to forgive me right now if you're not ready. But I will
+          spend every day showing you that my love is real, my regret is deep,
+          and my commitment to us is unbreakable.
+        </p>
+        <p>
+          If you give me one more chance, I swear on everything I am — I will
+          spend the rest of my life making sure you never doubt my love again.
+        </p>
+        <p class="letter__sign">
+          Forever yours,<br>
+          with all my love and all my heart.
+        </p>
+      </div>
+
+      <div id="forgive-actions" class="forgive-actions">
+        <button id="btn-yes" class="btn btn--filled btn--stay">I forgive you ♥</button>
+        <button id="btn-later" class="btn btn--runaway" type="button" tabindex="-1">I need time</button>
+        <p class="forgive-actions__hint">good luck catching that button 😄</p>
+      </div>
+
+      <div id="forgive-response" class="forgive-response">
+        <p></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    made with <span>love</span> — always yours
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
